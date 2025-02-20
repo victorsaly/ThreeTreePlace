@@ -7,7 +7,7 @@
       <!-- Left Column: Text -->
       <div class="w-full lg:w-1/2">
         <p class="text-xl font-light text-gray-600 mb-2 fade-in">
-          Say hello, to your
+          Welcome to your
         </p>
         <h1 class="text-4xl md:text-6xl font-black leading-tight text-gray-900 slide-in">
           THREE TREE PLACE
