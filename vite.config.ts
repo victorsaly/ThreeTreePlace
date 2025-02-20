@@ -12,6 +12,6 @@ export default defineConfig({
     outDir: 'docs', // Specify the output directory
   },
   base: process.env.NODE_ENV === 'production'
-    ? '/threetreeplace/' // Replace 'threetreeplace' with your repository name
+    ? '/ThreeTreePlace/' // Replace 'threetreeplace' with your repository name
     : '/',
 })
