@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import About from '../views/About.vue';
 import CorporateHousing from '../views/CorporateHousing.vue';
@@ -42,11 +42,12 @@ const routes = [
     path: '/partnerships-and-joint-ventures',
     name: 'PartnershipsAndJoinVentures',
     component: PartnershipsAndJoinVentures,
-  }
+  },
+  { path: '/:catchAll(.*)', redirect: '/' } // Catch-all route
 ];
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
 });
 
