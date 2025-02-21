@@ -37,12 +37,15 @@
           </ul>
 
           <!-- CTA Button -->
-          <button 
-            class="mt-6 bg-black text-white text-lg px-6 py-3 rounded-md font-semibold 
+          <a 
+            href="https://calendly.com/threetreeplace-demo/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 inline-block bg-black text-white text-lg px-6 py-3 rounded-md font-semibold 
                   hover:bg-gray-900 transition duration-300"
           >
             Book a 30 min call
-          </button>
+          </a>
         </div>
       </div>
     </div>
