@@ -3,7 +3,6 @@
     <div class="max-w-screen-xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center lg:space-x-12">
       <!-- Left Side: Image -->
       <div class="lg:w-1/2 relative">
-
         <AnimatedImage src="/images/TemporaryAccommodation.png" alt="Temporary Accommodation" class="w-full" />
       </div>
 
@@ -21,8 +20,8 @@
           while you focus on what's most important to you.
         </p>
         <button
-          class="cursos-pointer mt-6 px-6 py-3 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
-          v-scroll-to="'#contact-form'">
+          class="cursor-pointer mt-6 px-6 py-3 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700 transition duration-300"
+          @click="scrollToContactForm">
           Enquire Now
         </button>
       </div>
@@ -203,6 +202,7 @@
       </div>
     </div>
   </section>
+
 </template>
 
 <script lang="ts">
@@ -228,7 +228,16 @@ export default defineComponent({
       handleScroll(); // Trigger the scroll handler to check initial visibility
     });
 
-    return {};
+    const scrollToContactForm = () => {
+      const contactForm = document.getElementById('contact-form');
+      if (contactForm) {
+        contactForm.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+
+    return {
+      scrollToContactForm,
+    };
   },
 });
 </script>

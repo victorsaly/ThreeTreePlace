@@ -1,6 +1,6 @@
 <template>
 
-  <section class="bg-gray-900 py-16">
+  <section class="bg-gray-900 py-16" id="contact-form">
     <div class="max-w-screen-xl mx-auto px-6 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-8 text-gray-100">
       <!-- Left Column: Address and Contact Info -->
       <div>
