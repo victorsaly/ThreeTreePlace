@@ -30,7 +30,7 @@
     <div class="max-w-screen-xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center lg:space-x-12">
       
       <!-- Left Content: Text -->
-      <div class="lg:w-1/2">
+      <div class="lg:w-2/3">
         <h2 class="text-3xl lg:text-5xl font-bold text-gray-900">
           GUARANTEED RENT FOR <br />
           YOUR PROPERTY IN <span class="text-black font-extrabold">HERTFORDSHIRE</span>
@@ -54,12 +54,12 @@
       </div>
 
       <!-- Right Content: Image -->
-      <div class="lg:w-1/2 mt-8 lg:mt-0">
+      <div class="lg:w-1/3 mt-8 lg:mt-0">
         
         <AnimatedImage
             src="/images/RentProperty.png"
             alt="Temporary Accommodation"
-            class="w-full"
+            class="w-full rounded-lg shadow-md"
           />
       </div>
     </div>

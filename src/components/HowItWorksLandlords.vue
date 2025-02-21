@@ -3,18 +3,18 @@
       <div class="max-w-screen-xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center lg:space-x-12">
         
         <!-- Left: Styled Image -->
-        <div class="lg:w-1/2 relative">
+        <div class="lg:w-1/3 relative">
           <div class="overflow-hidden w-full">
             <AnimatedImage
             src="/images/RentProperty2.png"
             alt="Temporary Accommodation"
-            class="w-full"
+            class="w-full rounded-lg shadow-md"
           />
           </div>
         </div>
   
         <!-- Right: Text Content -->
-        <div class="lg:w-1/2 mt-8 lg:mt-0">
+        <div class="lg:w-2/3 mt-8 lg:mt-0">
           <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">How it Works</h2>
           
           <p class="text-gray-700 text-lg mt-4">

@@ -8,7 +8,7 @@
           <AnimatedImage
             src="/images/RentProperty2.png"
             alt="Temporary Accommodation"
-            class="w-full"
+            class="w-full rounded-lg shadow-md"
           />
         </div>
 
