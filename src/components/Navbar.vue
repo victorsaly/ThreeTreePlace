@@ -226,6 +226,7 @@
       <router-link
         to="/about"
         class="block py-2 px-6 border-b border-gray-200 hover:bg-gray-100 transition duration-300"
+        :class="{ 'font-bold': isActive('/about') }"
         @click.native="closeMobileMenu"
       >
         About Us
@@ -273,6 +274,7 @@
           <router-link
             to="/corporate-housing"
             class="block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-black transition duration-300"
+            :class="{ 'font-bold': isActive('/corporate-housing') }"
             @click.native="closeMobileMenu"
           >
             Corporate Housing
@@ -280,6 +282,7 @@
           <router-link
             to="/trade-accommodation"
             class="block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-black transition duration-300"
+            :class="{ 'font-bold': isActive('/trade-accommodation') }"
             @click.native="closeMobileMenu"
           >
             Trade Accommodation
@@ -287,6 +290,7 @@
           <router-link
             to="/temporary-accommodation"
             class="block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-black transition duration-300"
+            :class="{ 'font-bold': isActive('/temporary-accommodation') }"
             @click.native="closeMobileMenu"
           >
             Temporary Accommodation
@@ -336,6 +340,7 @@
           <router-link
             to="/guaranteed-rent"
             class="block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-black transition duration-300"
+            :class="{ 'font-bold': isActive('/guaranteed-rent') }"
             @click.native="closeMobileMenu"
           >
             Guaranteed Rent
@@ -343,6 +348,7 @@
           <router-link
             to="/partnerships-and-joint-ventures"
             class="block py-2 px-4 text-gray-600 hover:bg-gray-100 hover:text-black transition duration-300"
+            :class="{ 'font-bold': isActive('/partnerships-and-joint-ventures') }"
             @click.native="closeMobileMenu"
           >
             Partnerships and Joint Ventures
