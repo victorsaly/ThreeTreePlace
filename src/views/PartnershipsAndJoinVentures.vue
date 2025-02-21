@@ -46,9 +46,15 @@
       <p class="text-gray-700 text-lg leading-relaxed mb-8">
         If you are interested in learning more about our partnerships and joint ventures, we would love to hear from you. Please contact us to discuss how we can work together to achieve your goals.
       </p>
-      <button class="mt-6 px-6 py-3 bg-gray-600 text-white rounded-lg shadow-md hover:bg-gray-700 transition duration-300">
-        Contact Us
-      </button>
+      <a 
+            href="https://calendly.com/threetreeplace-demo/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 inline-block bg-black text-white text-lg px-6 py-3 rounded-md font-semibold 
+                  hover:bg-gray-900 transition duration-300"
+          >
+            Book a 30 min call
+          </a>
     </div>
   </section>
   <ContactForm />
