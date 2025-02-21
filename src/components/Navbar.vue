@@ -14,7 +14,7 @@
       </div>
 
       <!-- Desktop Navigation Links -->
-      <div class="hidden space-x-8 font-extralight text-gray-500 md:flex items-center">
+      <div class="hidden space-x-8 font-extralight text-gray-500 md:flex items-center menu-animation">
         <!-- Normal Links -->
         <router-link
           to="/"
