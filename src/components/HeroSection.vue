@@ -1,11 +1,10 @@
 <template>
   <section class="relative bg-white py-12 lg:py-20">
-
     <div class="hero-background"></div>
     <!-- Container -->
     <div class="max-w-screen-xl mx-auto px-6 lg:px-12 flex flex-col-reverse lg:flex-row items-center lg:space-x-12 relative z-10">
       <!-- Left Column: Text -->
-      <div class="w-full lg:w-1/2">
+      <div class="w-full lg:w-1/2 mt-6 lg:mt-0">
         <p class="text-xl font-light text-gray-600 mb-2 fade-in">
           Your Home Away from Home in Hertfordshire
         </p>
@@ -17,7 +16,7 @@
         </p>
         <p class="text-base md:text-lg text-gray-600 mt-4 fade-in">
           Enjoy comfort, flexibility, and exceptional service with our fully managed rentals. From short-term business trips to longer contractor assignments, Three Tree Place is your trusted partner in Hertfordshire.
-       </p>
+        </p>
       </div>
 
       <!-- Right Column: Image -->
@@ -33,8 +32,6 @@
 </template>
 
 <style scoped>
-
-
 .hero-background {
   position: absolute;
   top: 0;
