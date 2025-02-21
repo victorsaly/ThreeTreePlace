@@ -168,7 +168,7 @@
           <transition name="fade">
             <div
               v-show="dropdownOpen === 'for-landlords'"
-              class="absolute mt-2 w-48 bg-white shadow-lg rounded-lg"
+              class="absolute mt-2 w-36 bg-white shadow-lg rounded-lg"
             >
               <router-link
                 to="/guaranteed-rent"
@@ -182,7 +182,7 @@
                 class="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                 active-class="bg-gray-100"
               >
-                Partnerships and Joint Ventures
+                Partnerships & Joint Ventures
               </router-link>
             </div>
           </transition>
