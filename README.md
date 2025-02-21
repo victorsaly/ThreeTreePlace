@@ -1,5 +1,7 @@
 # Three Tree Place Website Project
 
+![alt text](./public/images/logo.svg)
+
 ## Overview
 Welcome to the Three Tree Place website repository. This project focuses on providing a modern platform for serviced accommodations in Hertfordshire, UK. Three Tree Place specializes in high-quality, temporary housing solutions for businesses, contractors, landlords, and guests, ensuring a seamless booking process and dedicated support for comfort and convenience.
 
