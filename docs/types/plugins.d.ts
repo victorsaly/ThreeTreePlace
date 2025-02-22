@@ -17,8 +17,7 @@ type NuxtAppInjections =
   InjectionType<typeof import("../../node_modules/nuxt/dist/app/plugins/chunk-reload.client.js")> &
   InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prefetch.client.js")> &
   InjectionType<typeof import("../../node_modules/nuxt-gtag/dist/runtime/plugin.client.js")> &
-  InjectionType<typeof import("../../plugins/openwidget.client")> &
-  InjectionType<typeof import("../../node_modules/nuxt/dist/pages/runtime/plugins/prerender.server.js")>
+  InjectionType<typeof import("../../plugins/openwidget.client")>
 
 declare module '#app' {
   interface NuxtApp extends NuxtAppInjections { }
