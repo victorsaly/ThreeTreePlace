@@ -34,4 +34,5 @@ export { useSiteConfig } from '../node_modules/nuxt-site-config/dist/runtime/app
 export { createSitePathResolver, withSiteTrailingSlash, withSiteUrl } from '../node_modules/nuxt-site-config/dist/runtime/app/composables/utils';
 export { useGtag } from '../node_modules/nuxt-gtag/dist/runtime/composables/useGtag';
 export { useTrackEvent } from '../node_modules/nuxt-gtag/dist/runtime/composables/useTrackEvent';
+export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
