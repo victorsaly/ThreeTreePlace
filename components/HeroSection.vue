@@ -12,7 +12,7 @@
           THREE TREE PLACE
         </h1>
         <p class="text-base md:text-lg text-gray-600 mt-6 fade-in">
-          Discover Three Tree Place, Hertfordshire’s premier serviced accommodation for businesses, contractors, and landlords. Whether you’re a company arranging stays for employees, a business traveler seeking convenience, or a landlord renting on behalf of tenants, we provide tailored, high-quality properties in the heart of the UK.
+          Discover Three Tree Place, Hertfordshire’s premier serviced accommodation for businesses, contractors, and landlords. Whether you are a company arranging stays for employees, a business traveler seeking convenience, or a landlord renting on behalf of tenants, we provide tailored, high-quality properties in the heart of the UK.
         </p>
         <p class="text-base md:text-lg text-gray-600 mt-4 fade-in">
           Enjoy comfort, flexibility, and exceptional service with our fully managed rentals. From short-term business trips to longer contractor assignments, Three Tree Place is your trusted partner in Hertfordshire.
