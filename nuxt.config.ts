@@ -4,7 +4,6 @@ import { defineNuxtConfig } from 'nuxt/config';
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   css: ['~/assets/css/main.css'],
-  buildDir: 'docs', // Set the build output directory to 'docs'
   ssr: false, // Disable Server-Side Rendering for pure SSG
   app: {
     head: {
@@ -75,5 +74,8 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ],
+  },
+  status: {
+    enabled: true, // Enable status module
   },
 });
